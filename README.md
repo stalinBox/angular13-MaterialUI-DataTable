@@ -1,5 +1,7 @@
 # Angular13CrudWithDatatable
 
+![crud-angular](https://user-images.githubusercontent.com/10236292/151601302-590d0925-975a-48e3-b4b3-b550b3613295.png)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Development server
