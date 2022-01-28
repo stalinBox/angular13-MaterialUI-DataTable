@@ -1,0 +1,52 @@
+<h1 mat-dialog-title>Añadir producto</h1>
+<div mat-dialog-content>
+
+    <form [formGroup] = "productForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Nombre</mat-label>
+            <input formControlName="productName" matInput placeholder="Nombre">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Categoria</mat-label>
+            <mat-select formControlName="categoria" placeholder="Categoria">
+                <mat-option value="Frutas1">Frutas1</mat-option>
+                <mat-option value="Frutas2">Frutas2</mat-option>
+                <mat-option value="Frutas3">Frutas3</mat-option>
+                <mat-option value="Frutas4">Frutas4</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Fecha</mat-label>
+            <input formControlName="fecha" matInput [matDatepicker]="picker">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+
+        <label for="">
+            <h1>Frescura</h1>
+        </label>
+        <mat-radio-group formControlName="frescura" class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let fresh of frescuraList" [value]="fresh">
+                {{fresh}}
+            </mat-radio-button>
+        </mat-radio-group>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Precio</mat-label>
+            <input formControlName="precio" matInput type="number" placeholder="Precio">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Comentario</mat-label>
+            <textarea formControlName="comentario" matInput></textarea>
+        </mat-form-field>
+    </form>
+
+</div>
+
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close="">Cerrar</button>
+    <button style="margin-left: 8px;" mat-raised-button color="primary" (click)="addProduct()">{{actionBTN}}</button>
+</div>

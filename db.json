@@ -1,0 +1,86 @@
+{
+  "productList": [
+    {
+      "productName": "Apple1222",
+      "categoria": "Frutas2",
+      "fecha": "2022-02-01T05:00:00.000Z",
+      "frescura": "Segunda Mano",
+      "precio": 70000000,
+      "comentario": "es computadora no comestible",
+      "id": 1
+    },
+    {
+      "productName": "Apple",
+      "categoria": "Frutas2",
+      "fecha": "2022-01-28T05:00:00.000Z",
+      "frescura": "Estrenar",
+      "precio": 7,
+      "comentario": "algun comentario",
+      "id": 2
+    },
+    {
+      "productName": "manzanita",
+      "categoria": "Frutas2",
+      "fecha": "2022-01-27T05:00:00.000Z",
+      "frescura": "Estrenar",
+      "precio": 1000,
+      "comentario": "algo",
+      "id": 3
+    },
+    {
+      "productName": "Dell",
+      "categoria": "Frutas3",
+      "fecha": "2022-01-21T05:00:00.000Z",
+      "frescura": "Estrenar",
+      "precio": 8000,
+      "comentario": "nuevo",
+      "id": 4
+    },
+    {
+      "productName": "Laptop",
+      "categoria": "Frutas3",
+      "fecha": "2022-01-26T05:00:00.000Z",
+      "frescura": "Segunda Mano",
+      "precio": 200,
+      "comentario": "latprop",
+      "id": 5
+    },
+    {
+      "productName": "toshiba",
+      "categoria": "Frutas4",
+      "fecha": "2022-01-19T05:00:00.000Z",
+      "frescura": "Estrenar",
+      "precio": 999,
+      "comentario": "nuevito",
+      "id": 6
+    },
+    {
+      "productName": "aaa",
+      "categoria": "Frutas1",
+      "fecha": "2022-01-14T05:00:00.000Z",
+      "frescura": "Segunda Mano",
+      "precio": 988,
+      "comentario": "xx",
+      "id": 7
+    },
+    {
+      "productName": "XX",
+      "categoria": "Frutas2",
+      "fecha": "2022-01-21T05:00:00.000Z",
+      "frescura": "Reparado",
+      "precio": 888,
+      "comentario": "DD",
+      "id": 8
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
